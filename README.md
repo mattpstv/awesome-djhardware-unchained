@@ -6,7 +6,7 @@ RMX-1000 and EFX-1000, subcontroller support and integration (DDJ-XP1, DDJ-XP2, 
 LINK, DIY builds, and repos sympathetic to the cause: pieces waiting to be put together in new ways.
 
 Repo dedicated to Prometheus, Eris, and all those actively creating a better world by creating and collaborating,
-not destroying and alienating.
+not destroying and dividing.
 
 Unofficial. Not affiliated with or endorsed by Pioneer DJ or AlphaTheta; product names belong to their owners. This list
 links to projects; it hosts no firmware. Each project's licence is its own: many below state none, which means all
