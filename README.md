@@ -15,11 +15,11 @@ rights reserved (read and cite, don't copy).
 - [TORAIZ DJS-1000](#toraiz-djs-1000)
 - [TORAIZ SQUID](#toraiz-squid)
 - [TORAIZ AS-1](#toraiz-as-1)
+- [CDJ and DJM](#cdj-and-djm)
 - [RMX-1000 and EFX-1000](#rmx-1000-and-efx-1000)
 - [Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1](#subcontrollers-ddj-xp1-ddj-xp2-ddj-sp1)
 - [Helper apps](#helper-apps)
 - [PRO DJ LINK](#pro-dj-link)
-- [CDJ and DJM](#cdj-and-djm)
 - [3D printing](#3d-printing)
 - [Other](#other)
 - [See also](#see-also)
@@ -48,6 +48,48 @@ rights reserved (read and cite, don't copy).
 - [KnobKraft-orm](https://github.com/christofmuc/KnobKraft-orm) - Cross-platform MIDI SysEx librarian with a TORAIZ AS-1 adaptation. AGPL-3.0.
 - [CtrlrPanelSequential](https://github.com/synthmutt/CtrlrPanelSequential) - Ctrlr editor panels for Sequential synths, including the AS-1. GPL-3.0.
 - [m4l-AS1](https://github.com/m43d4k/m4l-AS1) - Max for Live MIDI effects for the AS-1, such as a bank / program changer (README in Japanese).
+
+## CDJ and DJM
+
+The players and mixers a TORAIZ sits next to.
+
+### Emulators
+
+Same approach as the TORAIZ emulators: the unit's own firmware under QEMU.
+
+- [cdj3k-emu](https://github.com/nsaintot/cdj3k-emu) - CDJ-3000 with emulated controls, jog LCD, USB and DJ Link.
+- [cdj3k-emu-windows](https://github.com/bazda999/cdj3k-emu-windows) - Windows port of cdj3k-emu.
+- [cdj2000-emulator](https://github.com/cdj2k-revival/cdj2000-emulator) - CDJ-2000 on emulated processors.
+- [cdj-nxs2-qemu](https://github.com/Stijn-Jacobs/cdj-nxs2-qemu) - CDJ and XDJ emulator.
+
+### Firmware research
+
+- [1500X-Research](https://github.com/DRCRecoveryData/1500X-Research) - CDJ-1500X firmware and GPL source analysis log.
+
+### Mods
+
+These change the software on a real unit. Read each project's warnings; a failed flash can brick the player.
+
+- [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
+- [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
+- [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods.
+
+### USB drives and rekordbox
+
+- [booth](https://github.com/jwilkins/booth) - Writes CDJ USB drives without rekordbox, in both the legacy and the newer on-drive format.
+- [rbxport](https://github.com/chrisle/rbxport) - Music library manager with USB export and DJ Link.
+- [crate-digger](https://github.com/Deep-Symmetry/crate-digger) - Java library for rekordbox exports and analysis (ANLZ) files.
+- [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust parser for rekordbox device exports.
+- [pyrekordbox](https://github.com/dylanljones/pyrekordbox) - Python package for the rekordbox database, XML, ANLZ and My Settings files.
+- [rekordbox-parser](https://github.com/evanpurkhiser/rekordbox-parser) - JavaScript parser for `export.pdb` files.
+- [onelibrary](https://github.com/v1vendi/onelibrary) - Tooling for the OneLibrary format.
+- [onelibrary-connect](https://github.com/chrisle/onelibrary-connect) - Reads OneLibrary (`exportLibrary.db`) databases.
+
+### Mixers
+
+- [Pioneer-DJM-850-driver-reverse-engineering](https://github.com/nm2107/Pioneer-DJM-850-driver-reverse-engineering) - Notes on the DJM-850 Windows driver.
+- [DJM-850Audio](https://github.com/zavorka/DJM-850Audio) - DJM-850 USB audio driver for macOS.
+- [DJMT1Driver](https://github.com/cYpherBass/DJMT1Driver) - DriverKit audio driver for the DJM-T1 on current macOS.
 
 ## RMX-1000 and EFX-1000
 
@@ -126,48 +168,6 @@ Software CDJs and mixers on the network: something for a DJS-1000 or SP-16 to sy
 - [pioneer-link-wireshark](https://github.com/b5i/pioneer-link-wireshark) - Wireshark Lua dissector for ports 50000 to 50004 and the DBServer.
 - [wireshark-prodj-dissectors](https://github.com/nudge/wireshark-prodj-dissectors) - Another set of Wireshark dissectors.
 - [opus-quad-pro-dj-link-analysis](https://github.com/kyleawayan/opus-quad-pro-dj-link-analysis) - What the OPUS-QUAD sends on DJ Link.
-
-## CDJ and DJM
-
-The players and mixers a TORAIZ sits next to.
-
-### Emulators
-
-Same approach as the TORAIZ emulators: the unit's own firmware under QEMU.
-
-- [cdj3k-emu](https://github.com/nsaintot/cdj3k-emu) - CDJ-3000 with emulated controls, jog LCD, USB and DJ Link.
-- [cdj3k-emu-windows](https://github.com/bazda999/cdj3k-emu-windows) - Windows port of cdj3k-emu.
-- [cdj2000-emulator](https://github.com/cdj2k-revival/cdj2000-emulator) - CDJ-2000 on emulated processors.
-- [cdj-nxs2-qemu](https://github.com/Stijn-Jacobs/cdj-nxs2-qemu) - CDJ and XDJ emulator.
-
-### Firmware research
-
-- [1500X-Research](https://github.com/DRCRecoveryData/1500X-Research) - CDJ-1500X firmware and GPL source analysis log.
-
-### Mods
-
-These change the software on a real unit. Read each project's warnings; a failed flash can brick the player.
-
-- [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
-- [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
-- [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods.
-
-### USB drives and rekordbox
-
-- [booth](https://github.com/jwilkins/booth) - Writes CDJ USB drives without rekordbox, in both the legacy and the newer on-drive format.
-- [rbxport](https://github.com/chrisle/rbxport) - Music library manager with USB export and DJ Link.
-- [crate-digger](https://github.com/Deep-Symmetry/crate-digger) - Java library for rekordbox exports and analysis (ANLZ) files.
-- [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust parser for rekordbox device exports.
-- [pyrekordbox](https://github.com/dylanljones/pyrekordbox) - Python package for the rekordbox database, XML, ANLZ and My Settings files.
-- [rekordbox-parser](https://github.com/evanpurkhiser/rekordbox-parser) - JavaScript parser for `export.pdb` files.
-- [onelibrary](https://github.com/v1vendi/onelibrary) - Tooling for the OneLibrary format.
-- [onelibrary-connect](https://github.com/chrisle/onelibrary-connect) - Reads OneLibrary (`exportLibrary.db`) databases.
-
-### Mixers
-
-- [Pioneer-DJM-850-driver-reverse-engineering](https://github.com/nm2107/Pioneer-DJM-850-driver-reverse-engineering) - Notes on the DJM-850 Windows driver.
-- [DJM-850Audio](https://github.com/zavorka/DJM-850Audio) - DJM-850 USB audio driver for macOS.
-- [DJMT1Driver](https://github.com/cYpherBass/DJMT1Driver) - DriverKit audio driver for the DJM-T1 on current macOS.
 
 ## 3D printing
 
