@@ -17,7 +17,7 @@ rights reserved (read and cite, don't copy).
 - [TORAIZ AS-1](#toraiz-as-1)
 - [CDJ and DJM](#cdj-and-djm)
 - [RMX-1000 and EFX-1000](#rmx-1000-and-efx-1000)
-- [Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1](#subcontrollers-ddj-xp1-ddj-xp2-ddj-sp1)
+- [DDJ Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1](#ddj-subcontrollers-ddj-xp1-ddj-xp2-ddj-sp1)
 - [Helper apps](#helper-apps)
 - [PRO DJ LINK](#pro-dj-link)
 - [3D printing](#3d-printing)
@@ -102,7 +102,7 @@ No projects for the units themselves yet. Software inspired by the RMX-1000:
 - [rmx1000](https://github.com/MarvinKropf2/rmx1000) - RMX-style sampler on a DDJ-FLX4's PAD FX 2 mode in rekordbox (README in German).
 - [xpad](https://github.com/ojdvw124/xpad) - X-PAD drum-roll sampler for iPad.
 
-## Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1
+## DDJ Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1
 
 Pad controllers that could drive a TORAIZ or a TORAIZ emulator over MIDI.
 
