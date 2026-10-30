@@ -21,6 +21,7 @@ rights reserved (read and cite, don't copy).
 - [CDJ and DJM](#cdj-and-djm)
 - [3D printing](#3d-printing)
 - [Other](#other)
+- [See also](#see-also)
 - [Contributing](#contributing)
 
 ## TORAIZ SP-16
@@ -43,6 +44,9 @@ rights reserved (read and cite, don't copy).
 
 - [ToraizDump](https://github.com/KnightHill/ToraizDump) - Dumps the 64-step sequencer over MIDI SysEx.
 - [TORAIZ-AS-1-MIDI-Toolkit](https://github.com/TheMicronauts/TORAIZ-AS-1-MIDI-Toolkit) - MIDI cheat sheet (CC / NRPN), patch sheets and Cubase / Nuendo parts.
+- [KnobKraft-orm](https://github.com/christofmuc/KnobKraft-orm) - Cross-platform MIDI SysEx librarian with a TORAIZ AS-1 adaptation. AGPL-3.0.
+- [CtrlrPanelSequential](https://github.com/synthmutt/CtrlrPanelSequential) - Ctrlr editor panels for Sequential synths, including the AS-1. GPL-3.0.
+- [m4l-AS1](https://github.com/m43d4k/m4l-AS1) - Max for Live MIDI effects for the AS-1, such as a bank / program changer (README in Japanese).
 
 ## RMX-1000 and EFX-1000
 
@@ -57,11 +61,15 @@ No projects for the units themselves yet. Software inspired by the RMX-1000:
 
 ## Subcontrollers: DDJ-XP1, DDJ-XP2, DDJ-SP1
 
-Pad controllers that could drive a TORAIZ or a TORAIZ emulator over MIDI. Nothing for the DDJ-XP2 yet.
+Pad controllers that could drive a TORAIZ or a TORAIZ emulator over MIDI.
 
 - [StepXP1](https://github.com/AlChen31974/StepXP1) - 32-step MIDI sequencer played from a DDJ-XP1, in Python, synced to Ableton Live (README in French).
 - [sp1](https://github.com/theaugy/sp1) - Mixxx controller script for the DDJ-SP1.
 - [DDJ-SP1](https://github.com/dmvjs/DDJ-SP1) - DDJ-SP1 interface for a web client.
+- [autopilot-mappings](https://github.com/chrisle/autopilot-mappings) - Controller map collection with maps for the DDJ-XP1, DDJ-XP2, DDJ-SP1 and the TORAIZ SP-16.
+- [DJ-MIDI-Studio](https://github.com/guillain/DJ-MIDI-Studio) - Manages DJ MIDI mappings, with a DDJ-XP2 layout and controller emulator.
+- [rekordbox-dj](https://github.com/alexrster/rekordbox-dj) - rekordbox MIDI mappings and scripts, with notes on the DDJ-XP1's Slide FX and RMX-1000-style effects.
+- [RekordTrakt](https://github.com/Morgazmo/RekordTrakt) - MIDI bridge for other controllers in rekordbox, using a DDJ-XP1 as the hardware unlock. GPL-3.0.
 
 ## Helper apps
 
@@ -81,6 +89,8 @@ gear without DJ Link (a SQUID or AS-1 over MIDI, for example).
 - [canihazmidi](https://github.com/IljaN/canihazmidi) - Box that turns DJ Link clock into MIDI clock.
 - [beat-carabiner](https://github.com/Deep-Symmetry/beat-carabiner) - Tempo bridge between DJ Link and Ableton Link.
 - [SuperTimecodeConverter](https://github.com/fiverecords/SuperTimecodeConverter) - Timecode router: MTC, Art-Net, LTC and DJ Link.
+- [autoblink](https://github.com/strikeout/autoblink) - DJ Link to MIDI clock, MTC, CC, OSC and MIDI notes, for DAWs, drum machines, synths and DMX.
+- [ORVIK](https://github.com/Zesminseok/ORVIK) - DJ hardware to Resolume sync over TCNet.
 - [beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) - Triggers events and automates shows from what the players are doing.
 - [open-beat-control](https://github.com/Deep-Symmetry/open-beat-control) - A subset of beat-link over Open Sound Control.
 
@@ -89,6 +99,14 @@ gear without DJ Link (a SQUID or AS-1 over MIDI, for example).
 - [prolink-tools](https://github.com/evanpurkhiser/prolink-tools) - Now-playing overlays and other DJ Link tools.
 - [prolink-monitor](https://github.com/fidow/prolink-monitor) - Live view of loaded tracks and playheads.
 - [vizlink](https://github.com/nzoschke/vizlink) - Reads DJ Link devices and emits JSON.
+- [cdj-music-link](https://github.com/silmin/cdj-music-link) - Raspberry Pi joins as a virtual CDJ and serves player state as a read-only HTTP / SSE API. MIT.
+
+### Virtual players
+
+Software CDJs and mixers on the network: something for a DJS-1000 or SP-16 to sync to without a booth.
+
+- [CDJ_DJM_Emulator](https://github.com/OllieCross/CDJ_DJM_Emulator) - Up to four virtual CDJs and a DJM on a software LAN, for DJ Link consumers.
+- [vynull](https://github.com/vynulldev/vynull) - Virtual CDJ and rekordbox source for Linux: serves music to CDJs with waveforms, beat grids and cues. GPL-3.0.
 
 ### Libraries
 
@@ -120,6 +138,10 @@ Same approach as the TORAIZ emulators: the unit's own firmware under QEMU.
 - [cdj3k-emu-windows](https://github.com/bazda999/cdj3k-emu-windows) - Windows port of cdj3k-emu.
 - [cdj2000-emulator](https://github.com/cdj2k-revival/cdj2000-emulator) - CDJ-2000 on emulated processors.
 - [cdj-nxs2-qemu](https://github.com/Stijn-Jacobs/cdj-nxs2-qemu) - CDJ and XDJ emulator.
+
+### Firmware research
+
+- [1500X-Research](https://github.com/DRCRecoveryData/1500X-Research) - CDJ-1500X firmware and GPL source analysis log.
 
 ### Mods
 
@@ -159,6 +181,10 @@ Out-there possibilities.
 - [XDJ100SX](https://github.com/marcmonka/XDJ100SX) - Standalone open-source deck built from an old CDJ-100S.
 - [CDJ-100S-STM32F7-Display](https://github.com/spectran/CDJ-100S-STM32F7-Display) - STM32F746-Discovery board project for the CDJ-100S, with SD playback.
 - [ESPDJ-3000](https://github.com/johnnyclem/ESPDJ-3000) - CDJ-3000 look-alike on an ESP32 with a 1.28" round display.
+
+## See also
+
+- [awesome-dj-producer](https://github.com/classcompliant/awesome-dj-producer) - Curated tools for nerdy DJs and producers; links an early DJS-1000 hack write-up.
 
 ## Contributing
 
