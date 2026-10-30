@@ -14,8 +14,8 @@ rights reserved (read and cite, don't copy).
 
 ## Contents
 
-- [TORAIZ SP-16](#toraiz-sp-16)
 - [DJS-1000](#djs-1000)
+- [TORAIZ SP-16](#toraiz-sp-16)
 - [TORAIZ SQUID](#toraiz-squid)
 - [TORAIZ AS-1](#toraiz-as-1)
 - [CDJ and DJM](#cdj-and-djm)
@@ -28,16 +28,16 @@ rights reserved (read and cite, don't copy).
 - [See also](#see-also)
 - [Contributing](#contributing)
 
-## TORAIZ SP-16
-
-- [sp16-emulator](https://github.com/noturderek/sp16-emulator) - Runs the SP-16's own firmware update on a computer, with a virtual panel. Unlicense.
-
 ## DJS-1000
 
 - [djs1000-emulator](https://github.com/noturderek/djs1000-emulator) - DJS-1000 port of the SP-16 emulator. Unlicense.
 - [djs1000-emu](https://github.com/commit-collective/djs1000-emu) - Independent emulator under QEMU user mode (Linux / WSL2) with PRO DJ LINK, live sampling and headphone output. GPL-2.0-or-later.
 - [deckbench](https://github.com/commit-collective/deckbench) - Simulated CDJs for testing the DJS-1000's SYNC and MASTER against.
 - [djsvisuals](https://github.com/DirtySecretz/djsvisuals) - DJS-1000 visuals.
+
+## TORAIZ SP-16
+
+- [sp16-emulator](https://github.com/noturderek/sp16-emulator) - Runs the SP-16's own firmware update on a computer, with a virtual panel. Unlicense.
 
 ## TORAIZ SQUID
 
