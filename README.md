@@ -1,3 +1,5 @@
+<p align="center"><img src="banner.png" alt="awesome-djhardware-unchained" width="870"></p>
+
 # awesome-djhardware-unchained [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome future-facing research, enhancements and projects for DJ hardware. It started with the
