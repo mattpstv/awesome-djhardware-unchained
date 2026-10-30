@@ -178,6 +178,8 @@ repo), please add it.
 Out-there possibilities.
 
 - [Sampler-DJS-500](https://github.com/djgreeb/Sampler-DJS-500) - DIY PRO DJ LINK sampler in the nexus style on an STM32F746G-DISCO with Akai LPD8 pads: master-deck BPM and beat sync, quantised triggers, WAV samples from SD, CNC case files.
+- [CDJ-1000mk3_new_life_project](https://github.com/djgreeb/CDJ-1000mk3_new_life_project) - Revives a CDJ-1000mk3 with a dead drive: an STM32F746G-DISCO plays from micro SD with a CDJ-2000NXS-style screen, driven by the original controls.
+- [XDJ-X](https://github.com/djgreeb/XDJ-X) - Home-built two-channel all-in-one DJ system from CDJ-1000mk3 parts: VFD jog displays, DJM-900NXS-style mixer, optical crossfader, battery, rekordbox playlists from SD; own schematics and PCB.
 - [OneLibraryCompanion](https://github.com/hdelplan/OneLibraryCompanion) - Plays music on older CDJs from a Mac or Raspberry Pi.
 - [XDJ100SX](https://github.com/marcmonka/XDJ100SX) - Standalone open-source deck built from an old CDJ-100S.
 - [CDJ-100S-STM32F7-Display](https://github.com/spectran/CDJ-100S-STM32F7-Display) - STM32F746-Discovery board project for the CDJ-100S, with SD playback.
