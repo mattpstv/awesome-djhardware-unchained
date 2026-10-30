@@ -1,8 +1,9 @@
-# awesome-TORAIZ-unchained [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-djhardware-unchained [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome future-facing research, enhancements and projects for the abandoned TORAIZ ecosystem
-> (SP-16, SQUID, AS-1), the DJS-1000, and related devices such as the RMX-1000 and EFX-1000, subcontroller support and
-> integration (DDJ-XP1, DDJ-XP2, DDJ-SP1), and repos sympathetic to the cause.
+> A curated list of awesome future-facing research, enhancements and projects for DJ hardware. It started with the
+> abandoned TORAIZ ecosystem (SP-16, SQUID, AS-1) and the DJS-1000, and now covers related devices such as the
+> RMX-1000 and EFX-1000, subcontroller support and integration (DDJ-XP1, DDJ-XP2, DDJ-SP1), CDJs and DJMs, PRO DJ
+> LINK, DIY builds, and repos sympathetic to the cause: pieces waiting to be put together in new ways.
 
 Unofficial. Not affiliated with or endorsed by Pioneer DJ or AlphaTheta; product names belong to their owners. This list
 links to projects; it hosts no firmware. Each project's licence is its own: many below state none, which means all
