@@ -78,6 +78,8 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
 - [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
 - [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods.
+- [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod: FLAC (16/24-bit, up to 96 kHz) and 88.2/96 kHz WAV and AIFF, applied with an offline browser patcher. GPL-3.0.
+- [DJM-900NXS2-PLUS](https://github.com/lowtrustsociety/DJM-900NXS2-PLUS) - DJM-900NXS2 firmware mod: records the mixer's output to a USB stick in its own USB socket, 16/24-bit WAV with markers and gapless file splits. GPL-3.0.
 
 ### USB drives and rekordbox
 
