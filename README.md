@@ -70,6 +70,7 @@ Same approach as the TORAIZ emulators: the unit's own firmware under QEMU.
 ### Firmware research
 
 - [1500X-Research](https://github.com/DRCRecoveryData/1500X-Research) - CDJ-1500X firmware and GPL source analysis log.
+- [xdj-rx-tools](https://github.com/thomas-alrek/xdj-rx-tools) - XDJ-RX firmware notes; the unmodified firmware boots to its UI in QEMU.
 
 ### Mods
 
@@ -78,11 +79,21 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
 - [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
 - [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods.
+- [xdj-rr-rrfx](https://github.com/DJJohanLi/xdj-rr-rrfx) - Unlocks 8 Beat FX on the XDJ-RR instead of the stock 3.
+- [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod that plays formats the stock player refuses.
+- [xdj-mod-studio](https://github.com/inter55/xdj-mod-studio) - XDJ-700 mods (RGB waveforms, key shift, stems, beat jump pads, themes) from a Mac / Windows app; nothing flashed, power-cycle for stock.
+- [opusquadmods](https://github.com/robertpriewe/opusquadmods) - OPUS-QUAD custom firmware: four-deck waveforms, CDJ-3000-style side screens, stems, switchable mods.
+- [DJM-900NXS2-PLUS](https://github.com/lowtrustsociety/DJM-900NXS2-PLUS) - DJM-900NXS2 firmware mod that records the mixer's output to a USB stick.
 
 ### USB drives and rekordbox
 
 - [booth](https://github.com/jwilkins/booth) - Writes CDJ USB drives without rekordbox, in both the legacy and the newer on-drive format.
 - [rbxport](https://github.com/chrisle/rbxport) - Music library manager with USB export and DJ Link.
+- [dj-usb-tkit](https://github.com/haivala/dj-usb-tkit) - Local-first library manager: analyse, convert and export playlists to USB for CDJ / XDJ and Engine DJ players, and repair broken drives.
+- [rekordbox-explorer](https://github.com/CarlosFranzetti/rekordbox-explorer) - Browses a rekordbox USB in the web browser, nothing uploaded.
+- [FableGear](https://github.com/fabledharbinger0993/FableGear) - rekordbox companion: relocating, duplicates, file names, key tagging, volume normalising.
+- [quantizer](https://github.com/deejay-tools/quantizer) - Straightens live-drummer tracks onto a constant BPM and writes the rekordbox grid (macOS, README in Italian). MIT.
+- [rekordbox-pacemaker-sync](https://github.com/clyttle85/rekordbox-pacemaker-sync) - Syncs rekordbox playlists to a Pacemaker device.
 - [crate-digger](https://github.com/Deep-Symmetry/crate-digger) - Java library for rekordbox exports and analysis (ANLZ) files.
 - [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust parser for rekordbox device exports.
 - [pyrekordbox](https://github.com/dylanljones/pyrekordbox) - Python package for the rekordbox database, XML, ANLZ and My Settings files.
@@ -95,6 +106,7 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [Pioneer-DJM-850-driver-reverse-engineering](https://github.com/nm2107/Pioneer-DJM-850-driver-reverse-engineering) - Notes on the DJM-850 Windows driver.
 - [DJM-850Audio](https://github.com/zavorka/DJM-850Audio) - DJM-850 USB audio driver for macOS.
 - [DJMT1Driver](https://github.com/cYpherBass/DJMT1Driver) - DriverKit audio driver for the DJM-T1 on current macOS.
+- [DJM-Rec-for-Android](https://github.com/P2GR/DJM-Rec-for-Android) - Records a set from a DJM's USB audio to an Android phone. MIT.
 
 ## RMX-1000 and EFX-1000
 
@@ -155,6 +167,7 @@ Software CDJs and mixers on the network: something for a DJS-1000 or SP-16 to sy
 
 - [CDJ_DJM_Emulator](https://github.com/OllieCross/CDJ_DJM_Emulator) - Up to four virtual CDJs and a DJM on a software LAN, for DJ Link consumers.
 - [vynull](https://github.com/vynulldev/vynull) - Virtual CDJ and rekordbox source for Linux: serves music to CDJs with waveforms, beat grids and cues. GPL-3.0.
+- [OpenProLink](https://github.com/Cd1s/OpenProLink) - CDJ-3000 / XDJ simulator in Go, plus a capture suite for CDJ, XDJ and DJM traffic.
 
 ### Libraries
 
@@ -166,6 +179,7 @@ Software CDJs and mixers on the network: something for a DJS-1000 or SP-16 to sy
 - [prolink](https://github.com/usr-ein/prolink) - Rust.
 - [prodjlink-rs](https://github.com/Compellerai/prodjlink-rs) - Rust, for monitoring.
 - [prolink-cpp](https://github.com/grantHarris/prolink-cpp) - C++.
+- [libcdj](https://github.com/teknopaul/libcdj) - C, with command-line binaries.
 
 ### Protocol analysis
 
@@ -188,6 +202,7 @@ Out-there possibilities.
 - [XDJ-X](https://github.com/djgreeb/XDJ-X) - Home-built two-channel all-in-one DJ system from CDJ-1000mk3 parts: VFD jog displays, DJM-900NXS-style mixer, optical crossfader, battery, rekordbox playlists from SD; own schematics and PCB.
 - [OneLibraryCompanion](https://github.com/hdelplan/OneLibraryCompanion) - Plays music on older CDJs from a Mac or Raspberry Pi.
 - [XDJ100SX](https://github.com/marcmonka/XDJ100SX) - Standalone open-source deck built from an old CDJ-100S.
+- [freedj-3000](https://github.com/audiodestrukt/freedj-3000) - Open-hardware DJ deck (Rust).
 - [CDJ-100S-STM32F7-Display](https://github.com/spectran/CDJ-100S-STM32F7-Display) - STM32F746-Discovery board project for the CDJ-100S, with SD playback.
 - [ESPDJ-3000](https://github.com/johnnyclem/ESPDJ-3000) - CDJ-3000 look-alike on an ESP32 with a 1.28" round display.
 
