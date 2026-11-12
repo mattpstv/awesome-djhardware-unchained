@@ -78,7 +78,7 @@ These change the software on a real unit. Read each project's warnings; a failed
 
 - [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
 - [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
-- [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods.
+- [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods (stems, key shift, sample pads, 32-beat jump, extra browse columns) from a desktop app that prepares the rekordbox USB; nothing flashed.
 - [xdj-rr-rrfx](https://github.com/DJJohanLi/xdj-rr-rrfx) - Unlocks 8 Beat FX on the XDJ-RR instead of the stock 3.
 - [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod that plays formats the stock player refuses.
 - [xdj-mod-studio](https://github.com/inter55/xdj-mod-studio) - XDJ-700 mods (RGB waveforms, key shift, stems, beat jump pads, themes) from a Mac / Windows app; nothing flashed, power-cycle for stock.
@@ -93,6 +93,7 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [rekordbox-explorer](https://github.com/CarlosFranzetti/rekordbox-explorer) - Browses a rekordbox USB in the web browser, nothing uploaded.
 - [FableGear](https://github.com/fabledharbinger0993/FableGear) - rekordbox companion: relocating, duplicates, file names, key tagging, volume normalising.
 - [quantizer](https://github.com/deejay-tools/quantizer) - Straightens live-drummer tracks onto a constant BPM and writes the rekordbox grid (macOS, README in Italian). MIT.
+- [overcue-stems-format](https://github.com/OverCue-gg/overcue-stems-format) - Open spec for the stems files OverCue Desktop writes next to a rekordbox export (`/CDJMODS`), with a Python validator, so other players can read them. MIT.
 - [rekordbox-pacemaker-sync](https://github.com/clyttle85/rekordbox-pacemaker-sync) - Syncs rekordbox playlists to a Pacemaker device.
 - [crate-digger](https://github.com/Deep-Symmetry/crate-digger) - Java library for rekordbox exports and analysis (ANLZ) files.
 - [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust parser for rekordbox device exports.
