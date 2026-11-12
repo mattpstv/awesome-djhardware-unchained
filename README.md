@@ -65,12 +65,14 @@ Same approach as the TORAIZ emulators: the unit's own firmware under QEMU.
 - [cdj3k-emu](https://github.com/nsaintot/cdj3k-emu) - CDJ-3000 with emulated controls, jog LCD, USB and DJ Link.
 - [cdj3k-emu-windows](https://github.com/bazda999/cdj3k-emu-windows) - Windows port of cdj3k-emu.
 - [cdj2000-emulator](https://github.com/cdj2k-revival/cdj2000-emulator) - CDJ-2000 on emulated processors.
-- [cdj-nxs2-qemu](https://github.com/Stijn-Jacobs/cdj-nxs2-qemu) - CDJ and XDJ emulator.
+- [cdj-nxs2-qemu](https://github.com/Stijn-Jacobs/cdj-nxs2-qemu) - CDJ-2000NXS2 with all three processors, its DSP's own sound, DJ Link MASTER / SYNC between two decks and MIDI controller input; seven older CDJs and XDJs experimental (Windows, Linux, macOS). GPL-2.0-or-later.
+- [xdj-az-emu](https://github.com/Kyle-Hosman/xdj-az-emu) - XDJ-AZ developer emulator, built on cdj3k-emu, for building and testing AZ-MODS community mods without a deck. GPL-3.0.
 
 ### Firmware research
 
 - [1500X-Research](https://github.com/DRCRecoveryData/1500X-Research) - CDJ-1500X firmware and GPL source analysis log.
 - [xdj-rx-tools](https://github.com/thomas-alrek/xdj-rx-tools) - XDJ-RX firmware notes; the unmodified firmware boots to its UI in QEMU.
+- [pioneer-dj-usb-shell](https://github.com/Thomas-Geraghty/pioneer-dj-usb-shell) - The USB debug shell in stock CDJ-2000NXS, CDJ-2000NXS2 and XDJ-1000MK2 firmware: command protocol, memory reads and writes, live patching (tested on an XDJ-1000MK2).
 
 ### Mods
 
@@ -78,6 +80,8 @@ These change the software on a real unit. Read each project's warnings; a failed
 
 - [cdj3k-mods](https://github.com/nsaintot/cdj3k-mods) - Quality-of-life features for the CDJ-3000.
 - [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
+- [az-mods-sdk](https://github.com/Kyle-Hosman/az-mods-sdk) - SDK for writing AZ-MODS community mods: header, build container, template mod, packer and guidelines. GPL-3.0.
+- [az-mods-index](https://github.com/Kyle-Hosman/az-mods-index) - The reviewed list of community mod repositories an XDJ-AZ running AZ-MODS shows by default. MIT.
 - [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods (stems, key shift, sample pads, 32-beat jump, extra browse columns) from a desktop app that prepares the rekordbox USB; nothing flashed.
 - [xdj-rr-rrfx](https://github.com/DJJohanLi/xdj-rr-rrfx) - Unlocks 8 Beat FX on the XDJ-RR instead of the stock 3.
 - [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod: FLAC (16/24-bit, up to 96 kHz) and 88.2/96 kHz WAV and AIFF, applied with an offline browser patcher. GPL-3.0.
@@ -96,7 +100,7 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [overcue-stems-format](https://github.com/OverCue-gg/overcue-stems-format) - Open spec for the stems files OverCue Desktop writes next to a rekordbox export (`/CDJMODS`), with a Python validator, so other players can read them. MIT.
 - [rekordbox-pacemaker-sync](https://github.com/clyttle85/rekordbox-pacemaker-sync) - Syncs rekordbox playlists to a Pacemaker device.
 - [crate-digger](https://github.com/Deep-Symmetry/crate-digger) - Java library for rekordbox exports and analysis (ANLZ) files.
-- [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust parser for rekordbox device exports.
+- [rekordcrate](https://github.com/Holzhaus/rekordcrate) - Rust library and command-line tool for rekordbox device exports (`export.pdb`, ANLZ files), with JSON output. MPL-2.0.
 - [pyrekordbox](https://github.com/dylanljones/pyrekordbox) - Python package for the rekordbox database, XML, ANLZ and My Settings files.
 - [rekordbox-parser](https://github.com/evanpurkhiser/rekordbox-parser) - JavaScript parser for `export.pdb` files.
 - [onelibrary](https://github.com/v1vendi/onelibrary) - Tooling for the OneLibrary format.
@@ -202,6 +206,8 @@ Out-there possibilities.
 - [CDJ-1000mk3_new_life_project](https://github.com/djgreeb/CDJ-1000mk3_new_life_project) - Revives a CDJ-1000mk3 with a dead drive: an STM32F746G-DISCO plays from micro SD with a CDJ-2000NXS-style screen, driven by the original controls.
 - [XDJ-X](https://github.com/djgreeb/XDJ-X) - Home-built two-channel all-in-one DJ system from CDJ-1000mk3 parts: VFD jog displays, DJM-900NXS-style mixer, optical crossfader, battery, rekordbox playlists from SD; own schematics and PCB.
 - [OneLibraryCompanion](https://github.com/hdelplan/OneLibraryCompanion) - Plays music on older CDJs from a Mac or Raspberry Pi.
+- [three-band-waveform](https://github.com/hdelplan/three-band-waveform) - Canvas 2D renderer for CDJ-style three-band (low / mid / high) scrolling waveforms, for your own apps. GPL-3.0-only.
+- [embedded-gui](https://github.com/re-spin/embedded-gui) - `no_std` Rust GUI and widget toolkit for microcontroller displays, a base for DIY deck and sampler screens. MIT or Apache-2.0.
 - [XDJ100SX](https://github.com/marcmonka/XDJ100SX) - Standalone open-source deck built from an old CDJ-100S.
 - [freedj-3000](https://github.com/audiodestrukt/freedj-3000) - Open-hardware DJ deck (Rust).
 - [CDJ-100S-STM32F7-Display](https://github.com/spectran/CDJ-100S-STM32F7-Display) - STM32F746-Discovery board project for the CDJ-100S, with SD playback.
