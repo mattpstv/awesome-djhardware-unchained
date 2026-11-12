@@ -80,10 +80,10 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [xdj-az-mods](https://github.com/Kyle-Hosman/xdj-az-mods) - XDJ-AZ root and community mods.
 - [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods (stems, key shift, sample pads, 32-beat jump, extra browse columns) from a desktop app that prepares the rekordbox USB; nothing flashed.
 - [xdj-rr-rrfx](https://github.com/DJJohanLi/xdj-rr-rrfx) - Unlocks 8 Beat FX on the XDJ-RR instead of the stock 3.
-- [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod that plays formats the stock player refuses.
+- [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod: FLAC (16/24-bit, up to 96 kHz) and 88.2/96 kHz WAV and AIFF, applied with an offline browser patcher. GPL-3.0.
 - [xdj-mod-studio](https://github.com/inter55/xdj-mod-studio) - XDJ-700 mods (RGB waveforms, key shift, stems, beat jump pads, themes) from a Mac / Windows app; nothing flashed, power-cycle for stock.
 - [opusquadmods](https://github.com/robertpriewe/opusquadmods) - OPUS-QUAD custom firmware: four-deck waveforms, CDJ-3000-style side screens, stems, switchable mods.
-- [DJM-900NXS2-PLUS](https://github.com/lowtrustsociety/DJM-900NXS2-PLUS) - DJM-900NXS2 firmware mod that records the mixer's output to a USB stick.
+- [DJM-900NXS2-PLUS](https://github.com/lowtrustsociety/DJM-900NXS2-PLUS) - DJM-900NXS2 firmware mod: records the mixer's output to a USB stick in its own USB socket, 16/24-bit WAV with markers and gapless file splits. GPL-3.0.
 
 ### USB drives and rekordbox
 
