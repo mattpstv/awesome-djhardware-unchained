@@ -40,6 +40,7 @@ rights reserved (read and cite, don't copy).
 ## TORAIZ SP-16
 
 - [sp16-emulator](https://github.com/noturderek/sp16-emulator) - Runs the SP-16's own firmware update on a computer, with a virtual panel. Unlicense.
+- [PioneerSP16FirmwareResearch](https://github.com/mtaylortech/PioneerSP16FirmwareResearch) - Archived research notes: update format, `.prj` parser, MIDI chart, bit-exact models of four 1.60 effects, symbols and a QEMU board emulator. MIT / CC BY 4.0.
 
 ## TORAIZ SQUID
 
