@@ -84,6 +84,8 @@ These change the software on a real unit. Read each project's warnings; a failed
 - [az-mods-sdk](https://github.com/Kyle-Hosman/az-mods-sdk) - SDK for writing AZ-MODS community mods: header, build container, template mod, packer and guidelines. GPL-3.0.
 - [az-mods-index](https://github.com/Kyle-Hosman/az-mods-index) - The reviewed list of community mod repositories an XDJ-AZ running AZ-MODS shows by default. MIT.
 - [rx3-toolkit](https://github.com/Tratosca/rx3-toolkit) - XDJ-RX3 mods (stems, key shift, sample pads, 32-beat jump, extra browse columns) from a desktop app that prepares the rekordbox USB; nothing flashed.
+- [XZ-Mods](https://github.com/OpticMystic/XZ-Mods) - XDJ-XZ (firmware 1.26) mods from a Windows / Mac desktop app that prepares the USB: stems, 24 display themes, four decks, stem pad shortcuts, Beat Jump pages; beta. MIT.
+- [xdj-xz-toolkit](https://github.com/OpticMystic/xdj-xz-toolkit) - The USB loader builder and on-player code behind XZ-Mods; firmware and keys not included. MIT.
 - [xdj-rr-rrfx](https://github.com/DJJohanLi/xdj-rr-rrfx) - Unlocks 8 Beat FX on the XDJ-RR instead of the stock 3.
 - [XDJ-700-PLUS](https://github.com/lowtrustsociety/XDJ-700-PLUS) - XDJ-700 firmware mod: FLAC (16/24-bit, up to 96 kHz) and 88.2/96 kHz WAV and AIFF, applied with an offline browser patcher. GPL-3.0.
 - [xdj-mod-studio](https://github.com/inter55/xdj-mod-studio) - XDJ-700 mods (RGB waveforms, key shift, stems, beat jump pads, themes) from a Mac / Windows app; nothing flashed, power-cycle for stock.
