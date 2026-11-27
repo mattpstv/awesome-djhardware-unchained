@@ -96,6 +96,7 @@ These change the software on a real unit. Read each project's warnings; a failed
 
 - [booth](https://github.com/jwilkins/booth) - Writes CDJ USB drives without rekordbox, in both the legacy and the newer on-drive format.
 - [rbxport](https://github.com/chrisle/rbxport) - Music library manager with USB export and DJ Link.
+- [Dubcrate](https://github.com/martincurkovic/Dubcrate) - Plans, burns and labels audio and MP3 CDs for CDJs from a rekordbox library, and syncs cues and waveforms to the CDJ-1000MK3's SD card (macOS, Linux, Windows). GPL-3.0-or-later.
 - [dj-usb-tkit](https://github.com/haivala/dj-usb-tkit) - Local-first library manager: analyse, convert and export playlists to USB for CDJ / XDJ and Engine DJ players, and repair broken drives.
 - [rekordbox-explorer](https://github.com/CarlosFranzetti/rekordbox-explorer) - Browses a rekordbox USB in the web browser, nothing uploaded.
 - [FableGear](https://github.com/fabledharbinger0993/FableGear) - rekordbox companion: relocating, duplicates, file names, key tagging, volume normalising.
